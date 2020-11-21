@@ -1,0 +1,17 @@
+.ClearBtn {
+  box-sizing: border-box;
+  height: 50px;
+  width: 114px;
+  float: left;
+  font-size: 28px;
+  border: 1px solid white;
+}
+
+.ClearAllBtn {
+  box-sizing: border-box;
+  height: 50px;
+  width: 114px;
+  float: right;
+  font-size: 28px;
+  border: 1px solid white;
+}

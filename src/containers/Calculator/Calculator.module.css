@@ -1,0 +1,64 @@
+.Calculator {
+  background-color: white;
+  height: 362px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  width: 230px;
+  box-shadow: 6px 16px black;
+}
+
+.ButtonsDiv {
+  margin-top: 0px;
+  width: 228px;
+  height: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+}
+
+.ButtonsDiv button:hover {
+  background-image: linear-gradient(to bottom right, #462930, #211317 80%);
+  border-color: #352930;
+  color: white;
+  cursor: pointer;
+}
+
+.NumbersDiv {
+  width: 180px;
+  float: left;
+  height: 240px;
+}
+
+.OperatorsDiv {
+  width: 48px;
+  height: 240px;
+  float: left;
+}
+
+.OthersDiv {
+  width: 228px;
+  height: 50px;
+}
+
+.CalcDisplay {
+  height: 22px;
+  color: rgb(177, 177, 177);
+  font-family: arial;
+  font-weight: 100;
+  padding-top: 4px;
+  margin-top: 0px;
+}
+
+.ErrorDisplay {
+  resize: none;
+  text-align: center;
+  width: 230px;
+  height: 54px;
+  font-size: 12px;
+  box-sizing: border-box;
+  background-color: white;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: red;
+}

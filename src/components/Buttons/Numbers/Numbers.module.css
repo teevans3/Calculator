@@ -1,0 +1,15 @@
+.NumberButton {
+  height: 60px;
+  width: 60px;
+  font-size: 28px;
+  border-radius: 0px;
+  border: 1px solid white;
+}
+
+.NumberButtonZero {
+  height: 60px;
+  width: 180px;
+  font-size: 28px;
+  border-radius: 0px;
+  border: 1px solid white;
+}
