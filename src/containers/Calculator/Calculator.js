@@ -117,7 +117,7 @@ class Calculator extends Component {
         let solution = parseInt(this.state.operationsList[0]);
         const operationsList = this.state.operationsList;
         for (var i = 1; i < operationsList.length; i += 2) {
-          if (operationsList[i + 1] === "0") {
+          if ((operationsList[i + 1] === "0") && (operationsList[i] === "÷") {
             console.log("You cannot divide by 0.");
             this.setState({
               output: "",
