@@ -1,4 +1,4 @@
-# React-Calculator
+# Calculator
 Created with CodeSandbox
 
 A simple calculator created with React. Limited to only 8 digit numbers, has effective error messages.
